@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Sora", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+:root {
+    --primary: #2879fe;
+    --white: #fff;
+    --gray600: #040506;
+    --gray500: #171D26;
+    --gray400: #1F2733;
+    --gray300: #263140;
+    --gray200: #2E3B4D;
+    --gray100: #424E60;
+    --neutral600: #6D7A8C;
+    --neutral500: #8A95A6;
+    --neutral400: #AAB3C0;
+    --neutral300: #C7CFD9;
+    --neutral200: #DADFE6;
+    --neutral100: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.produtos{
+    display: flex;
+    padding: 30px 50px;
+    .left {
+        flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 50px;
+        .filterItem {
+            margin-bottom: 30px;
+            h2 {
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+            .inputItem {
+                margin-bottom: 10px;
+                label {
+                    margin-left: 10px;
+                }
+                input[type="checkbox"], input[type="range"], input[type="radio"] {
+                    accent-color: var(--primary);
+                }
+                input[type="range"] {
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+    .right {
+        flex: 3;
+        .catImg {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+    }
+}
