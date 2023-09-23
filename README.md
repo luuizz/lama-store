@@ -21,7 +21,7 @@ Para começar, siga os passos abaixo:
 1. Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/luuizz/lama-store.git
 2. Dentro da pasta raiz do projeto, execute o seguinte comando para instalar as dependências do Node.js:
 
     ```bash
