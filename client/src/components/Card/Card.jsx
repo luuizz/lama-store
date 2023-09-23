@@ -12,7 +12,7 @@ export const Card = ({item}) => {
                   process.env.REACT_APP_UPLOAD_URL + item.attributes?.img?.data?.attributes?.url
                   } alt="" className="mainImage" />
                 <img src={
-                  process.env.REACT_APP_UPLOAD_URL + item.attributes?.img2?.data[0]?.attributes?.url
+                  process.env.REACT_APP_UPLOAD_URL + item.attributes?.img2?.data?.attributes?.url
                   } alt="" className="secondImage" />
             </div>
             <h2>{item?.attributes.title}</h2>

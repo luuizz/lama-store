@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // Defina "module" como "NodeNext"
+    "moduleResolution": "NodeNext",
+    // Outras configurações do compilador aqui
+  },
+  "include": ["src/**/*"], // Ajuste a lista de inclusão conforme necessário
+  "exclude": ["node_modules"] // Ajuste a lista de exclusão conforme necessário
+}
+

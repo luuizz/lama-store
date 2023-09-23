@@ -12,14 +12,15 @@ export const Produto = () => {
   const id = useParams().id;
   const [selectedImg, setSelectedImg] = useState("img");
   const [quantity, setQuantity] = useState(1);
+
   const dispatch = useDispatch()
-  const {data, loading, error} = useFetch(`/produtos/${id}?populate=*`);
+  const { data, loading, error } = useFetch(`/produtos/${id}?populate=*`);
   return (
     <div className='produto'>
       <div className="left">
         <div className="images">
           <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img?.data?.attributes?.url} alt="" onClick={e => setSelectedImg("img")} />
-          <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img2?.data[0].attributes?.url} alt="" onClick={e => setSelectedImg("img2")} />
+          <img src={process.env.REACT_APP_UPLOAD_URL + data?.attributes?.img2?.data?.attributes?.url} alt="" onClick={e => setSelectedImg("img2")} />
         </div>
         <div className="mainImage">
           <img 
