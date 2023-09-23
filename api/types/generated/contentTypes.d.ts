@@ -730,7 +730,7 @@ export interface ApiOrderOrder extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    stripeId: Attribute.String;
+    stripeID: Attribute.String;
     products: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
